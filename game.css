@@ -1,0 +1,32 @@
+.childDiv {
+    width : 100px;
+    height : 100px;
+    display : inline-block;
+    background : #7986CB;
+    margin : 10px 10px 10px 0px;
+    border-radius: 4px;
+    border: 2px blue;
+    box-shadow: 0px 3px 0px 0px #222121;
+    transition: transform ease 1s;
+    
+}
+
+.rowDiv {
+    position : relative;
+    left : 300px;
+}
+
+.show {
+    background-size: cover;
+    transform: rotateY(180deg);
+}
+
+.hide {
+    background-size: 0 0;
+
+}
+
+#score {
+    float: right;
+}
+
